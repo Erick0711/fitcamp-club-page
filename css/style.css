@@ -30,3 +30,12 @@
     margin: 0 auto;
     text-align: center;
 }
+
+.nota{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 10px;
+}
+a{
+    cursor: default;
+}

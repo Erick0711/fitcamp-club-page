@@ -45,11 +45,11 @@
         <p>No te <b class="conforme">conformes</b> con menos de lo que puedes ser.</p>
       </div>
       <ul class="nav">
-        <li><a href="./index.php" title="">Inicio</a></li>
-        <li><a href="./about.php" title="">Cuéntame</a></li>
-        <li><a href="./services.php" title="">Servicios</a></li>
-        <li><a href="./contact.php" title="">Contacto</a></li>
-        <li><a href="./components.php" title="">Componetes</a></li>
+        <li><a href="/" title="">Inicio</a></li>
+        <li><a href="./about" title="">Cuéntame</a></li>
+        <li><a href="./services" title="">Servicios</a></li>
+        <li><a href="./contact" title="">Contacto</a></li>
+        <!-- <li><a href="./components.php" title="">Componetes</a></li> -->
 
       </ul>
 

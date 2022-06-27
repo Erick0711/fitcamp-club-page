@@ -45,11 +45,11 @@
         <p>No empieces una dieta que terminará algún día. Empieza un estilo de vida que dure para siempre</p>
       </div>
       <ul class="nav">
-        <li><a href="./index.php" title="">Inicio</a></li>
-        <li><a href="./about.php" title="">Cuéntame</a></li>
-        <li><a href="./services.php" title="">Servicios</a></li>
-        <li><a href="./contact.php" title="">Contacto</a></li>
-        <li><a href="./components.php" title="">Componetes</a></li>
+        <li><a href="/" title="">Inicio</a></li>
+        <li><a href="./about" title="">Cuéntame</a></li>
+        <li><a href="./services" title="">Servicios</a></li>
+        <li><a href="./contact" title="">Contacto</a></li>
+        <!-- <li><a href="./components.php" title="">Componetes</a></li> -->
 
       </ul>
 
@@ -82,14 +82,14 @@
     <img class="img-responsive" alt="" src="./img/alimentos-nutritivos.jpg">
     <h2>Alimentos Nutritivos</h2>
     <p>Tenemos para ofrecerte aquellos nutrientes como pizza, donald, muffins a base de proteina y ...</p>
-    <a href="./contact.html" class="btn btn-primary" title="">Ver mas...</a>
+    <a href="./services/alimentoN.php" class="btn btn-primary" title="">Ver mas...</a>
   </div>
 
   <div class="col-xs-12 col-md-4 section-container-spacer">
     <img class="img-responsive" alt="" src="./img/ejercicio-funcional.jpg">
     <h2>Ejercicio Funcional</h2>
     <p>Ofrecemos actividad física que nos ayuda a decestrezarnos, estirar los músculos y...</p>
-    <a href="./contact.html" class="btn btn-primary" title="">Ver mas...</a>
+    <a href="./services/ejercicioF.php" class="btn btn-primary" title="">Ver mas...</a>
   </div>
 
 </div>

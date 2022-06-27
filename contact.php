@@ -74,11 +74,11 @@
         <p>Todo lo que inviertas en nutrición, Te ahorrarás en medicina.</p>
       </div>
       <ul class="nav">
-        <li><a href="./index.php" title="">Inicio</a></li>
-        <li><a href="./about.php" title="">Cuéntame</a></li>
-        <li><a href="./services.php" title="">Servicios</a></li>
-        <li><a href="./contact.php" title="">Contacto</a></li>
-        <li><a href="./components.php" title="">Componetes</a></li>
+        <li><a href="./index" title="">Inicio</a></li>
+        <li><a href="./about" title="">Cuéntame</a></li>
+        <li><a href="./services" title="">Servicios</a></li>
+        <li><a href="./contact" title="">Contacto</a></li>
+        <!-- <li><a href="./components.php" title="">Componetes</a></li> -->
 
       </ul>
 

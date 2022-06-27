@@ -47,7 +47,7 @@
         <li><a href="../about.php" title="">Cuéntame</a></li>
         <li><a href="../services.php" title="">Servicios</a></li>
         <li><a href="../contact.php" title="">Contacto</a></li>
-        <li><a href="../components.php" title="">Componetes</a></li>
+        <!-- <li><a href="../components.php" title="">Componetes</a></li> -->
 
       </ul>
 
@@ -102,8 +102,9 @@
             </ul>
         </li>
     </ul>
-    <h3>"Herbalife" complementarios diseñados para cubrir sus necesidades.</h3>
     <a href="../contact.php" class="btn btn-success" title="">Contactanos</a>
+    <p class="nota">"Herbalife"</p>
+    <p class="nota"> complementarios diseñados para cubrir sus necesidades</p>
   </div>
 
 </div>
