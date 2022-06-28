@@ -53,3 +53,19 @@
     background-color: #b15454;
     color: #fff;
 }
+
+/* REGISTROS FORMULARIO */
+.main-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100%;
+}
+.form{
+    min-width:50% ;
+    padding: 5px;
+    border: 1px solid #746c6c;
+    margin-top: 5px;
+}

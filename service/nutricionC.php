@@ -30,7 +30,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a href="./index.html" class="navbar-brand">FitCamp Club Activa</a>
+    <a href="./index" class="navbar-brand">FitCamp Club Activa</a>
   </div>
 
   <nav class="sidebar">
@@ -43,10 +43,10 @@
         <p>Hoy es buen dia para ponerse una meta, ¿Cúal es la tuya?</p>
       </div>
       <ul class="nav">
-        <li><a href="../index.php" title="">Inicio</a></li>
-        <li><a href="../about.php" title="">Cuéntame</a></li>
-        <li><a href="../services.php" title="">Servicios</a></li>
-        <li><a href="../contact.php" title="">Contacto</a></li>
+        <li><a href="../index" title="">Inicio</a></li>
+        <li><a href="../about" title="">Cuéntame</a></li>
+        <li><a href="../services" title="">Servicios</a></li>
+        <li><a href="../contact" title="">Contacto</a></li>
         <!-- <li><a href="../components.php" title="">Componetes</a></li> -->
 
       </ul>

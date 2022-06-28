@@ -32,7 +32,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a href="./index.html" class="navbar-brand">FitCamp Club</a>
+    <a href="./index" class="navbar-brand">FitCamp Club</a>
   </div>
 
   <nav class="sidebar">
@@ -45,7 +45,7 @@
         <p>No te <b class="conforme">conformes</b> con menos de lo que puedes ser.</p>
       </div>
       <ul class="nav">
-        <li><a href="/" title="">Inicio</a></li>
+        <li><a href="./index" title="">Inicio</a></li>
         <li><a href="./about" title="">Cuéntame</a></li>
         <li><a href="./services" title="">Servicios</a></li>
         <li><a href="./contact" title="">Contacto</a></li>

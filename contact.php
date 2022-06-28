@@ -61,7 +61,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a href="./index.html" class="navbar-brand">FitCamp Club</a>
+    <a href="./index" class="navbar-brand">FitCamp Club</a>
   </div>
 
   <nav class="sidebar">

@@ -32,7 +32,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a href="./index.html" class="navbar-brand">FitCamp Club</a>
+    <a href="./index" class="navbar-brand">FitCamp Club</a>
   </div>
 
   <nav class="sidebar">
@@ -45,11 +45,11 @@
         <p>Lo único imposible es aquello que no intentas.</p>
       </div>
       <ul class="nav">
-        <li><a href="./index.php" title="">Inicio</a></li>
-        <li><a href="./about.php" title="">Cuéntame</a></li>
-        <li><a href="./services.php" title="">Servicios</a></li>
-        <li><a href="./contact.php" title="">Contacto</a></li>
-        <li><a href="./components.php" title="">Componetes</a></li>
+        <li><a href="./index" title="">Inicio</a></li>
+        <li><a href="./about" title="">Cuéntame</a></li>
+        <li><a href="./services" title="">Servicios</a></li>
+        <li><a href="./contact" title="">Contacto</a></li>
+        <li><a href="./components" title="">Componetes</a></li>
 
       </ul>
     <!-- template/footer.php include  -->

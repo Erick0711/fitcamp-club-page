@@ -13,7 +13,7 @@
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-  
+  <link rel="stylesheet" href="./css/style.css">
   <link href="./assets/apple-icon-180x180.png" rel="apple-touch-icon">
   <link href="./assets/favicon.ico" rel="icon">
 

@@ -1,119 +1,85 @@
 <?php include("./template/header_admi.php");  ?>
+<?php include("./config/conexionBD.php");  
+
+  $sql = $conexion->prepare("SELECT * FROM usuarios_login");
+  $sql->execute();
+
+  $registros = $sql->fetchAll();
+
+?>
+
+<?php  
+  // $nombreErr = $emailErr = "";
+  // $nombre = $email = "";
+  // if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  // if (empty($_POST["nombre"])) {
+  // $nombreErr = "Nombre es requerido";
+  // }else {
+  // $nombre = validar_input($_POST["nombre"]);
+  // } 
+  
+  // if (empty($_POST["email"])) {
+  // $emailErr = "Email es requerido";
+  // }else {
+  // $email = validar_input($_POST["email"]); 
+  // // Verifica el correcto formato de email
+  // if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+  // $emailErr = "Formato de email invalido"; 
+  // }
+  // }
+  // } 
+    if($_POST){
+        $username = $_POST['username'];
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+      }
+      
+      $sql = $conexion->prepare("INSERT INTO `usuarios_login` (`id`, `username`, `email`, `pass_word`) VALUES (NULL, '$username', '$email', '$password'); ");
+
+      $sql->execute();
+
+      $sqlRegistros = $sql->fetch();
+
+      header("Location:./inicio.php");
+
+    }else{
+      
+    } 
+
+
+   
+?>
 
 <main class="" id="main-collapse">
+  <form action="registros.php" method="POST" class="main-form">
+    <input type="text" name="username" placeholder="Nombre" class="form">
+    <input type="email" name="email" placeholder="Email" class="form">
+    <input type="password" name="password" placeholder="Contraseña" class="form">
+    <input type="submit" value="Registrarse" class="btn">
+  </form>
+<h1>Registros</h1>
 
-<!-- Add your site or app content here -->
- 
-<div class="hero-full-wrapper">
-  <div class="grid">
-  <div class="gutter-sizer"></div>
-    <div class="grid-sizer"></div>
-    
-    <div class="grid-item">
-      <img class="img-responsive" alt="" src="../assets/images/img-12.jpg">
-      <a href="./project.html" class="project-description">
-        <div class="project-text-holder">
-          <div class="project-text-inner">
-            <h3>Vivamus vestibulum</h3>
-            <p>Discover more</p>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    
-    <div class="grid-item">
-      <img class="img-responsive" alt="" src="../assets/images/img-05.jpg">
-      <a href="./project.html" class="project-description">
-        <div class="project-text-holder">
-          <div class="project-text-inner">
-            <h3>Vivamus vestibulum</h3>
-            <p>Discover more</p>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div class="grid-item">
-      <img class="img-responsive" alt="" src="../assets/images/img-13.jpg">
-      <a href="./project.html" class="project-description">
-        <div class="project-text-holder">
-          <div class="project-text-inner">
-            <h3>Vivamus vestibulum</h3>
-            <p>Discover more</p>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="grid-item">
-      <img class="img-responsive" alt="" src="../assets/images/img-04.jpg">
-      <a href="./project.html" class="project-description">
-        <div class="project-text-holder">
-          <div class="project-text-inner">
-            <h3>Vivamus vestibulum</h3>
-            <p>Discover more</p>
-          </div>
-        </div>
-      </a>
-    </div>
-    
-    <div class="grid-item">
-      <img class="img-responsive" alt="" src="../assets/images/img-07.jpg">
-      <a href="./project.html" class="project-description">
-        <div class="project-text-holder">
-          <div class="project-text-inner">
-            <h3>Vivamus vestibulum</h3>
-            <p>Discover more</p>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div class="grid-item">
-      <img class="img-responsive" alt="" src="../assets/images/img-11.jpg">
-      <a href="./project.html" class="project-description">
-        <div class="project-text-holder">
-          <div class="project-text-inner">
-            <h3>Vivamus vestibulum</h3>
-            <p>Discover more</p>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div class="grid-item">
-      <img class="img-responsive" alt="" src="../assets/images/img-10.jpg">
-      <a href="./project.html" class="project-description">
-        <div class="project-text-holder">
-          <div class="project-text-inner">
-            <h3>Vivamus vestibulum</h3>
-            <p>Discover more</p>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="grid-item">
-      <img class="img-responsive" alt="" src="../assets/images/img-03.jpg">
-      <a href="./project.html" class="project-description">
-        <div class="project-text-holder">
-          <div class="project-text-inner">
-            <h3>Vivamus vestibulum</h3>
-            <p>Discover more</p>
-          </div>
-        </div>
-      </a>
-    </div>
-    
-  </div>
-</div>
-
-
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     masonryBuild();
-  });
-</script>
-
+  <table class="table"> 
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>NOMBRE</th>
+        <th>CONTRASEÑA</th>
+        <th>CORREO</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php foreach($registros as $registro) { ?>
+      <tr>
+        <td><?php echo $registro['id'];  ?></td>
+        <td><?php echo $registro['username'];  ?></td>
+        <td><?php echo $registro['pass_word'];  ?></td>
+        <td><?php echo $registro['email'];  ?></td>
+      </tr>
+      <?php } ?>
+    </tbody>
+  </table>
+  
 </main>
 
 <script>
@@ -123,19 +89,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
-
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date(); a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-  ga('create', 'UA-XXXXX-X', 'auto');
-  ga('send', 'pageview');
-</script>
-
---><script type="text/javascript" src="../main.85741bff.js"></script></body>
+<script type="text/javascript" src="../main.85741bff.js"></script>
+</body>
 
 </html>
