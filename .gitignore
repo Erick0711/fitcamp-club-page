@@ -1,0 +1,6 @@
+# GIT IGNORE PARA PAGINAS QUE NO SE UTILIZARAN O ESTAN EN DESARROLLO Y PETICIONES
+
+.htacess
+.componets.php
+.project.php
+.README.md

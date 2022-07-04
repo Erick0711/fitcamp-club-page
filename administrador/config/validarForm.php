@@ -8,18 +8,12 @@
                 // case !empty($username >= 15):
                 //     echo "<p>Tu número no es menor a lo que pedimos</p>";
                 //     break;
-            case empty($email):
-                echo "<p>*Por favor ingresar un correo correcto</p>";
+                case empty($email):
+                    echo "<p>*Por favor ingresar un dato en correo</p>";
+                        break;
+            case empty(filter_var($email, FILTER_VALIDATE_EMAIL)):
+                echo "<p>*Por favor ingresar un correo</p>";
                     break;
-
-                    case !empty($email):
-                        if(filter_var($email, FILTER_VALIDATE_EMAIL)){
-                            echo "TU CORREO ES VALIDO";
-                        }else{
-                            echo "TU CORREO ES INVALIDo";
-                        };
-                            break;
-
             case empty($password):
                 echo "<p>Por favor ingresa un contraseña</p>";
                         break;

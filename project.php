@@ -13,11 +13,12 @@
   <meta name="msapplication-tap-highlight" content="no">
   
   <link href="./assets/apple-icon-180x180.png" rel="apple-touch-icon">
-  <link href="./assets/favicon.ico" rel="icon">
+  <link href="./img/vida-saludable.png" rel="icon">
 
 
 
   <title>FitCamp-Club</title>  
+  <link rel="stylesheet" href="./css/style.css">
 
 <link href="./main.82cfd66e.css" rel="stylesheet"></head>
 
@@ -32,24 +33,24 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a href="./index" class="navbar-brand">FitCamp Club</a>
+    <a href="./" class="navbar-brand">FitCamp Club Activa</a>
   </div>
 
   <nav class="sidebar">
     <div class="navbar-collapse" id="navbar-collapse">
       <div class="site-header hidden-xs">
-          <a class="site-brand" href="./index.html" title="">
-            <img class="img-responsive site-logo" alt="" src="./assets/images/mashup-logo.svg">
+          <a class="site-brand" href="./" title="">
+          <img class="img-logo site-logo" alt="" src="./img/vida-saludable.png">
             FitCamp Club Activa
           </a>
         <p>Hoy es buen dia para ponerse una meta, ¿Cúal es la tuya?</p>
       </div>
       <ul class="nav">
-        <li><a href="./index.php" title="">Inicio</a></li>
-        <li><a href="./about.php" title="">Cuéntame</a></li>
-        <li><a href="./services.php" title="">Servicios</a></li>
-        <li><a href="./contact.php" title="">Contacto</a></li>
-        <li><a href="./components.php" title="">Componetes</a></li>
+        <li><a href="./" title="">Inicio</a></li>
+        <li><a href="./about" title="">Cuéntame</a></li>
+        <li><a href="./services" title="">Servicios</a></li>
+        <li><a href="./contact" title="">Contacto</a></li>
+        <li><a href="./components" title="">Componetes</a></li>
 
       </ul>
 

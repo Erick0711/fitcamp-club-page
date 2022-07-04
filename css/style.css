@@ -39,3 +39,19 @@
 a{
     cursor: default;
 }
+/* ICONO DE REGRESO A SERVICE "BACK" */
+#back{
+    animation: back 2s;
+}
+@keyframes back{
+    0%{transform: translateX(0px);}
+    50%{transform: translateX(-5px);}
+    100%{transform: translateX(0px);}
+}
+/* LOGO DE FITCAMP CLUB ACTIVA */
+.img-logo{
+    display: block;
+    max-width: 40%;
+    min-width: 40%;
+    height: auto;
+}
