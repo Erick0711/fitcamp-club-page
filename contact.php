@@ -109,7 +109,7 @@
                   <a href="https://goo.gl/maps/GnwDKqTBhFyXtWnL9" target="_blank" class="link-social" title="link-ubicacion-FitCamp-Club-Activa">Ubicación</a>
                 </li>
               </ul>
-              <h3>Encuentrame en mis redes</h3>
+              <h3>Encuéntrame en mis redes</h3>
               <a href="#" title="pagina-facebook-FitCamp-Club-Activa" class="fa-icon" target="_blank">
                 <i class="fa fa-facebook"></i>
               </a>

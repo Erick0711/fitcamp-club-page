@@ -72,20 +72,23 @@
     
     <p>Hola, soy Arminda Guzman, soy una profesora de nivel inicial como tambien distribuidora independiente de herbalife.</p>
     
-    <h3>Inicie mi labor</h3>
+    <h3>¿Como conosco el producto de "Herbalife"?</h3>
 
-    <p>Inicie mi labor de profesora hace ya 10 años</p>
+    <p>Conozco el producto ya hace como 10 años, por motivos de malos hábitos alimenticios al principio siempre hay dudas sobre aquello que no conocemos o porque hablan las personas sobre lo malo que puede ser o no les funciono, pero no, gracias a los productos, una adecuada dieta y ejercicio me ha llevado a tener una vida más saludable como bajar de peso y controlar mi peso.</p>
 
-    <h3>Ut enim ad minim veniam </h3>
+    <h3>¿Porque inicie lo que es ahora mi Fitcamp club activa?</h3>
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius. 
-    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis elit sagittis, at hendrerit lorem venenatis. Morbi accumsan iaculis blandit. Cras ultrices hendrerit nisl.</p>
+    <p>Inicie gracias a la confianza de que me dio los productos y resultados obtenidos tanto mía como la que tuvieron las gente alrededor mía gracias a los ejercicio una dieta y complemento como es Herbalife, también el hecho de ayudar a más personas a que tengan una vida mas saludable.</p>
 
-    <h3>Phasellus iaculis magna </h3>
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h3>Metas que me incentiva a seguir mejorando mi Fitcamp club Activa y ser distribuidora de “Herbalife”</h3>
+    <p>Las cosas que me incentivan son el hecho de seguir capacitándome para mejorar la salud, y ver a la gente como se retira diciendo que es un lugar muy agradable que les ayuda a desesterarse tanto físicamente y mentalmente, y por supuesto mejorando a nivel de ingresos obtenidos</p>
     
+    <h3>¿Cuál es mi noción o meta para abrir nuevamente mejorando mi Fitcamp Club Activa?</h3>
+    <p>Cree mi club en el año 2020 en mi casa, con pocas cosas pero con ganas de llegar a más gente a que conozca o se dé cuenta cómo puede llegar a tener una vida más saludable, y como ya han de saber la llegada de la cuarentena me hizo cerrar todo.
+      <br>
+      <br>
+    Hoy en el año 2022 mejorado llego a abrir mi Fitcamp club Activa nuevamente, a llegar a más personas con buena  información y brindarles una calidad de atención que se merecen.
+    </p>
     <a href="./contact" class="btn btn-primary" title="Contacto-FitCamp-Club-Activa">Contactame</a>
  </div>
 </div>
