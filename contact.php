@@ -1,5 +1,4 @@
 <?php include("./administrador/config/conexionBD.php"); ?>
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -74,20 +73,22 @@
     </div>
     <div class="section-container-spacer">
 
-    <form action="./contact.php" method="POST" class="reveal-content">
+    <form action="./emails.php" method="POST" class="reveal-content">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text" class="form-control" name="email" id="email" placeholder="Email o Teléfono" required="required">
+                <input type="text" class="form-control" max="200" minname="email" id="email" placeholder="Email o Teléfono">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control"  name="fullname" id="subject" placeholder="Nombre Completo" required>
+                <input type="text" class="form-control"  name="fullname" id="subject" placeholder="Nombre Completo">
               </div>
               <div class="form-group">
                 <textarea class="form-control" rows="3" name="message" placeholder="Inserte el mensaje" required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+              <button type="submit" class="btn btn-primary btn-lg" name="submit">Enviar</button>
             </div>
+      </form>
+
             <div class="col-md-6">
               <ul class="list-unstyled address-container">
                 <li>
@@ -121,7 +122,7 @@
               </a>
             </div>
           </div>
-        </form>
+
 
     </div>
   </div>
